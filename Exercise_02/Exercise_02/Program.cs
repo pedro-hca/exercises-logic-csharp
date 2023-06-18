@@ -13,7 +13,7 @@ namespace Exercise_02
             Console.Clear();
 
             double pi = 3.14159;
-            Console.Write("Digite o valor do raio ");
+            Console.Write("Digite o valor do raio: ");
             double raio = double.Parse(Console.ReadLine());
 
             double area = pi * (Math.Pow(raio, 2));
